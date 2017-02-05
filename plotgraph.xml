@@ -1,0 +1,33 @@
+<plotgrapth>
+	<!-- package should contain all the package name whose graph one wants to plot-->
+	<package>
+		<package_name>com.truecaller</package_name>
+		<package_name>system (pid</package_name>
+	</package>
+	
+	<color>
+		<!-- number of color schemes should be same as number of packages-->
+		<color_scheme>r</color_scheme>
+		<color_scheme>g</color_scheme>
+	</color>
+	
+	<!-- file_name should name of the name of meminfo file -->
+	<file_name>meminfo.txt</file_name>
+	
+	<!-- It is the ram size of the device under test in KB-->
+	<max_memory>1048576</max_memory>
+	
+	<time>
+		<!-- time_duration: total time duration(in minutes) for which meminfo was captured-->
+		<time_duration>20</time_duration>
+		<!-- time_interval: time interval(in minutes) between 2 meminfo commands -->
+		<time_interval>1</time_interval>
+	</time>
+	
+	<graph>
+		<!-- graph_type should be either plot or scatter-->
+		<graph_type>scatter</graph_type>
+		<!-- number_of_graph: it should be either single or multiple-->
+		<number_of_graph>multiple</number_of_graph>
+	</graph>
+</plotgrapth>
