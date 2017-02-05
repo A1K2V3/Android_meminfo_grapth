@@ -13,7 +13,7 @@ prerequisites:
 
 Procedure:
 
-Generate meminfo file by using install.bat present inside meminfo folder for 7200 minutes(time can be changed by editing for loop in meminfo.bat)
+Generate meminfo file by using install.bat for 7200 minutes(time can be changed by editing for loop in meminfo.bat)
 
 Put the Android Package name, corresponding color scheme, type of graph, max memory of DUT meminfo filename inside plotgraph.xml
 
