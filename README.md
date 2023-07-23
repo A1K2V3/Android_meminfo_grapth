@@ -2,7 +2,7 @@
 
 prerequisites:
   python
-  matlpotlib
+  matpotlib
   numpy
  
  
